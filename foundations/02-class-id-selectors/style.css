@@ -1,0 +1,19 @@
+.odd {
+  background-color: rgb(242, 130, 160);
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.even:first-of-type {
+  color: rgb(61, 61, 230);
+  font-size: 36px;
+}
+
+.odd:nth-of-type(2) {
+  font-size: 24px;
+}
+
+.even:last-of-type {
+  background-color: rgb(138, 236, 138);
+  font-size: 24px;
+  font-weight: bold;
+}
